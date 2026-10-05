@@ -3,6 +3,9 @@
     "description": "The Ultimate Chess Toolkit: an open-source chess database, GUI, and analysis tool.",
     "homepage": "https://www.encroissant.org",
     "license": "GPL-3.0-only",
+    "suggest": {
+        "Microsoft Edge WebView2": "extras/webview2"
+    },
     "architecture": {
         "64bit": {
             "url": "https://github.com/franciscoBSalgueiro/en-croissant/releases/download/v0.15.1/en-croissant_0.15.1_x64-setup.exe#/dl.7z",
