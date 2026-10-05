@@ -17,7 +17,7 @@ scoop install lzh0394/<manifest-name>
 
 | Manifest | 说明 |
 | --- | --- |
-| _（暂无，欢迎补充第一个）_ | |
+| [`en-croissant`](https://github.com/franciscoBSalgueiro/en-croissant) | 开源国际象棋数据库 / GUI / 分析工具。`checkver` + `autoupdate` 已配好，版本跟进由 Excavator 自动完成。 |
 
 ## 新增一个清单
 
