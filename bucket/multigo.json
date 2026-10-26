@@ -13,12 +13,5 @@
             "MultiGo.exe",
             "MultiGo"
         ]
-    ],
-    "checkver": {
-        "url": "https://www.ruijiang.com/multigo/download.php",
-        "regex": "MultiGo ([\\d.]+)</a>"
-    },
-    "autoupdate": {
-        "url": "https://www.ruijiang.com/multigo/multigo.zip"
-    }
+    ]
 }
