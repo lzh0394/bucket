@@ -18,7 +18,7 @@ scoop install lzh0394/<manifest-name>
 | Manifest | 说明 |
 | --- | --- |
 | [`en-croissant`](https://github.com/franciscoBSalgueiro/en-croissant) | 开源国际象棋数据库 / GUI / 分析工具。`checkver` + `autoupdate` 已配好，版本跟进由 Excavator 自动完成。 |
-| [`multigo`](https://www.ruijiang.com/multigo/) | 围棋棋谱（SGF，兼容 BDX/NGF/GOS/GIB/UGF）查看与编辑器，免费软件。仓库内清单使用官方 zip 内的 Inno Setup 安装包解包安装。上游已停止更新（最后版本 4.4.4），清单不配置 `checkver` / `autoupdate`。 |
+| [`multigo`](https://www.ruijiang.com/multigo/) | 围棋棋谱（SGF，兼容 BDX/NGF/GOS/GIB/UGF）查看与编辑器，免费软件。仓库内清单使用官方 zip 内的 Inno Setup 安装包解包安装；安装时会把棋盘 / 棋子 / 音效 / 模板资源路径以绝对路径写入 HKCU，解决解包安装后找不到这些资源的问题。上游已停止更新（最后版本 4.4.4），清单不配置 `checkver` / `autoupdate`。 |
 
 ## 新增一个清单
 
